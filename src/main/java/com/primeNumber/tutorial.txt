@@ -1,0 +1,11 @@
+This is a program to check if the number is prime or not.
+
+The logic is that
+
+Take a number as a input from the user
+
+we take isPrime as boolean default true
+
+if will be false when number is divided by every number of a loop , if remainder is 0 then isPrime become false and break the loop.
+
+if isPrime is true then it is a prime number and if false then not.
