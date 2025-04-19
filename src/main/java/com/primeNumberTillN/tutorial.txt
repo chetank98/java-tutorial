@@ -1,0 +1,15 @@
+Take input from the user – the number n up to which we want to find all prime numbers.
+
+Start a loop from 2 to n (because 1 is not a prime number).
+
+For each number i in that loop:
+
+Assume it is a prime number by setting a flag isPrime = true.
+
+Then, check if it is divisible by any number from 2 to √i (square root of i).
+
+If it is divisible, set isPrime = false (because it has a factor other than 1 and itself).
+
+After checking, if isPrime is still true, then i is a prime number, so print it.
+
+This continues until all numbers from 2 to n are checked.

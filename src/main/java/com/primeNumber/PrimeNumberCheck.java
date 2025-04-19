@@ -13,7 +13,7 @@ public class PrimeNumberCheck {
             System.out.println("Prime number");
         }
 
-        for( int i=2;i<n;i++) {
+        for( int i=2;i<=Math.sqrt(n);i++) {
             if (n%i == 0) {
                 isPrime = false;
                 break;
