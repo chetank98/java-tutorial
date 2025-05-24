@@ -36,6 +36,14 @@ public class Demo {
         st3.study();
         st3.showFullDetails();
 
+        Dog d1 = new Dog();
+
+        d1.eating();
+
+        System.out.println(d1.color);
+
+        d1.speak();
+
     }
 
 }
