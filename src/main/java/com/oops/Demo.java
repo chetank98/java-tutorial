@@ -36,7 +36,6 @@ public class Demo {
         st3.study();
         st3.showFullDetails();
 
-
     }
 
 }

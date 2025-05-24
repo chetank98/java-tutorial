@@ -9,6 +9,7 @@ public class Student {
 
     //non-paramterized constructor
     public Student(){
+        this(201,"honey","punjab");
         System.out.println("creating objects");
     }
 
@@ -17,16 +18,17 @@ public class Student {
         System.out.printf("paramterized constructor : %d \n",st);
     }
 
-    public Student(int id, String name, String city) {
+    public Student(int id, String studentName, String studentCity) {
         studentID = id;
-        studentName = name;
-        studentCity = city;
+        this.studentName = studentName;
+        this.studentCity = studentCity;
     }
 
 
     //Behaviour : member methods : methods : (function)
     public void study(){
         System.out.println(studentName + " is studying");
+        System.out.println(this.studentCity);
     }
 
     public void showFullDetails(){
