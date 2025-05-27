@@ -1,0 +1,16 @@
+
+Create a college course registration application.
+
+There must be multiple departments.
+
+Each department must have at least 3 classes taught.
+
+Each class must be taught by at least one professor.
+
+A student may register for multiple classes, but no class may overlap in timeframe with another class.
+
+No professor may teach more than one class at the same time.
+
+To create that application you must create a Department class, a Professor class, a Class class, a Student class... and
+there will be multiple Class, Professor and Student. Try to make 3 different departments, 2 professors per department, 3 classes per department, and
+at least 10 students total. That should definitely get you some good experience building a fairly straightforward OOP focused application.
